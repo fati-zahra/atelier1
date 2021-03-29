@@ -1,0 +1,65 @@
+
+.row{
+   padding: 30px 30 px;  
+     color: rgb(59, 54, 112);
+     background-color: rgb(212, 191, 152);  
+    padding-left: 30 px  ;
+}    
+ body{
+    background: url("../2.PNG");
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
+    size: 1200px; 
+}
+h1{
+    padding-top: 20px;
+    padding-left: 20px;
+font-family: unset;
+}
+
+ .nav{
+   
+    text-align: center;
+    list-style-type: none;
+    color: rgb(9, 18, 26);
+    margin-left: 10%;
+
+}
+ .nav a{
+    display: inline-block;
+    color: rgb(14, 25, 36);
+    font-size: 20px;
+     padding: 20px;
+     font-family: fantasy;
+     font-size: 20px;
+}
+#a{
+color: rgb(24, 39, 83);
+margin-left:20%;
+font-size: 26px;
+font-family: fantasy;
+margin-top: 20px;
+}
+
+ 
+#b {
+    background-image:url("../p12.PNG") ;
+    position: relative;
+    animation-name: example;
+
+    animation-duration: 2s;
+  animation-iteration-count: infinite;
+  
+    width: 380px;
+    height: 800px;
+    margin-left: 80%;
+}
+  
+  @keyframes example {
+    0%   {  bottom:100px;}
+    25%  {  bottom:800px;}
+    50%  {  bottom:900px;}
+    75%  {  bottom:1000px;}
+    100% { bottom:1200px;}
+  }
+  
